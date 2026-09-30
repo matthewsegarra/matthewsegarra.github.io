@@ -936,6 +936,38 @@ a {
   letter-spacing: -0.01em;
 }
 
+.project-period {
+  margin-top: -0.5rem;
+  color: var(--red);
+  font-family: var(--font-mono);
+  font-size: 12px;
+}
+
+.project-image,
+.project-image-placeholder {
+  width: 100%;
+  min-height: 9rem;
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+}
+
+.project-image {
+  max-height: 15rem;
+  object-fit: contain;
+  background: var(--screen);
+}
+
+.project-image-placeholder {
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  color: var(--muted);
+  background: var(--paper);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  text-align: center;
+}
+
 .project-desc {
   color: var(--muted);
   font-size: 15px;
